@@ -24,6 +24,10 @@
     margin: 0 auto;
 }
 
+#menu-icon{
+        display: none;
+    }
+
 header{
     padding: 2rem 0;
     position: relative;
@@ -198,6 +202,7 @@ section .container{
 
     #menu-icon{
         z-index: 4;
+        display:block;
     }
 
     .nav-menu{
