@@ -102,6 +102,7 @@
         if(document.getElementById('menu').style.display == 'block'){
           document.getElementById('menu').style.display = 'none'
           document.getElementById("menu-icon").innerHTML= '<img onclick="teste()" src="assets/images/icon-menu.svg" alt="">'
+          document.querySelector(".overlay").style.display = 'none'
         }else{
           document.getElementById('menu').style.display = 'block'
           document.getElementById("menu-icon").innerHTML= '<img onclick="teste()" src="assets/images/icon-menu-close.svg" alt="">'
